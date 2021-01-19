@@ -1,0 +1,60 @@
+#messagesWrapper {
+  position: absolute;
+  overflow: hidden;
+  overflow-y: auto;
+  width: 100%;
+  height: 100%;
+  max-height: calc(100% - 225px);
+  bottom: 100px;
+  background-color: #eff1f2;
+}
+
+.messageItem {
+  overflow: auto;
+}
+
+.currentUserMessageItem {
+  margin-bottom: 24px;
+  margin-right: 24px;
+}
+
+.messageBubble {
+  max-width: 400px;
+  display: inline-block;
+  margin-left: 24px;
+  margin-top: 12px;
+  border-radius: 50px;
+  min-width: 100px;
+  text-align: center;
+}
+
+.currentUserBubble {
+  float: right;
+  background-color: #ff1940;
+  color: #ffffff;
+}
+
+/* .messageScrollabe {
+  overflow-y: auto;
+}  */
+
+.messageText {
+  margin: 2px 8px;
+}
+
+.messageBubbleUsername {
+  margin-left: 24px;
+  margin-bottom: 12px;
+  margin-top: 8px;
+  color: #5d5d5d;
+}
+
+.currentUserMessageWrapper {
+  float: right;
+}
+
+#endDiv {
+  scroll-margin: 24px;
+  height: 1px;
+  width: 1px;
+}

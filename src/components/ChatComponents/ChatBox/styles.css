@@ -1,0 +1,34 @@
+#chatBoxWrapper {
+  height: 100px;
+  justify-content: center;
+  margin-top: auto;
+  border-right: none;
+  border-left: none;
+  border-bottom: none;
+  border-radius: 0;
+  box-shadow: 0 -2px 2px -2px gray;
+}
+
+#chatBoxCol {
+  margin-left: 24px;
+}
+
+#chatBoxRow {
+  margin: 0;
+}
+
+#sendButtonCol {
+  flex-grow: 0;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+#sendMessageButton:hover,
+#sendMessageButton:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+#sendMessageButton {
+  font-weight: bold;
+}

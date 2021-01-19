@@ -1,0 +1,40 @@
+#sidebar {
+  max-height: 100vh;
+  height: 100vh;
+  background-color: #ff1940;
+}
+
+#sideNav {
+  flex-direction: column;
+}
+
+#sidebarUsername {
+  color: #ffffff;
+  padding-left: 2.5rem;
+  padding-top: 1.5rem;
+}
+
+#sidebarLoginTime {
+  font-size: 12px;
+  font-weight: 100;
+  color: #ffffff;
+  padding-left: 2.5rem;
+  padding-bottom: 1rem;
+}
+
+.categoryLink {
+  padding-left: 2.5rem;
+  padding-bottom: 1rem;
+  color: #ffffff;
+  font-weight: 100;
+}
+
+.categoryTab:hover,
+.categoryLink:hover {
+  background-color: #c0112e;
+  color: #ffffff;
+}
+
+#sideNav .nav-link.active {
+  background-color: #800d20;
+}
